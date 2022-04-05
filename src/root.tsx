@@ -5,10 +5,8 @@ import {
   Meta,
   Outlet,
   Scripts,
-  useLocation,
   ScrollRestoration,
 } from "@remix-run/react";
-import { AnimatePresence, motion } from "framer-motion";
 import styles from "~/styles/tailwind.css";
 
 export const meta: MetaFunction = () => ({
@@ -22,8 +20,6 @@ export const links: LinksFunction = () => {
 };
 
 export default function App() {
-  const { key } = useLocation();
-
   return (
     <html lang="en">
       <head>
@@ -31,16 +27,7 @@ export default function App() {
         <Links />
       </head>
       <body>
-        <AnimatePresence exitBeforeEnter initial={false}>
-          <motion.main
-            key={key}
-            initial={{ x: "10%", opacity: 0 }}
-            animate={{ x: "0", opacity: 1 }}
-            exit={{ x: "-40%", opacity: 0 }}
-          >
-            <Outlet />
-          </motion.main>
-        </AnimatePresence>
+        <Outlet />
         <ScrollRestoration />
         <Scripts />
         <LiveReload />
