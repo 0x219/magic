@@ -21,7 +21,7 @@
     "!(*pnpm-lock).yaml": "prettier --write"
   },
   "dependencies": {
-    "@remix-run/node": "1.3.5",
+    "@remix-run/node": "1.4.3",
     "@remix-run/react": "1.3.5",
     "@remix-run/serve": "1.3.5",
     "react": "18.0.0",
