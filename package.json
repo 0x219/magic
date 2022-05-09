@@ -49,7 +49,7 @@
   "pnpm": {
     "peerDependencyRules": {
       "ignoreMissing": [
-        "@remix-run/dev"
+        "babel/preset-env"
       ]
     }
   }
