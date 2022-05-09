@@ -10,11 +10,6 @@
     "prepare": "is-ci || husky install",
     "start": "remix-serve build"
   },
-  "commitlint": {
-    "extends": [
-      "@0x219"
-    ]
-  },
   "lint-staged": {
     "*.{ts,tsx}": "eslint",
     "*.{js,ts,tsx,md,html,css,json}": "prettier --write",
