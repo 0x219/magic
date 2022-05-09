@@ -8,7 +8,7 @@ specifiers:
   '@remix-run/serve': 1.4.3
   '@types/react': 18.0.9
   '@types/react-dom': 18.0.3
-  autoprefixer: 10.4.4
+  autoprefixer: 10.4.7
   concurrently: 7.1.0
   eslint: 8.15.0
   eslint-config-prettier: 8.5.0
@@ -38,7 +38,7 @@ devDependencies:
   '@remix-run/eslint-config': 1.4.3_qnitevl4qmllwi2zqekf75mwoi
   '@types/react': 18.0.9
   '@types/react-dom': 18.0.3
-  autoprefixer: 10.4.4_postcss@8.4.13
+  autoprefixer: 10.4.7_postcss@8.4.13
   concurrently: 7.1.0
   eslint: 8.15.0
   eslint-config-prettier: 8.5.0_eslint@8.15.0
@@ -1482,8 +1482,8 @@ packages:
     hasBin: true
     dev: true
 
-  /autoprefixer/10.4.4_postcss@8.4.13:
-    resolution: {integrity: sha512-Tm8JxsB286VweiZ5F0anmbyGiNI3v3wGv3mz9W+cxEDYB/6jbnj6GM9H9mK3wIL8ftgl+C07Lcwb8PG5PCCPzA==}
+  /autoprefixer/10.4.7_postcss@8.4.13:
+    resolution: {integrity: sha512-ypHju4Y2Oav95SipEcCcI5J7CGPuvz8oat7sUtYj3ClK44bldfvtvcxK6IEK++7rqB7YchDGzweZIBG+SD0ZAA==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
