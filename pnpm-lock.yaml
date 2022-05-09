@@ -21,21 +21,21 @@ specifiers:
   prettier: 2.6.2
   prettier-plugin-packagejson: 2.2.17
   prettier-plugin-tailwindcss: 0.1.10
-  react: 18.0.0
-  react-dom: 18.0.0
+  react: 18.1.0
+  react-dom: 18.1.0
   tailwindcss: 3.0.24
   typescript: 4.6.4
 
 dependencies:
-  '@remix-run/node': 1.4.3_zpnidt7m3osuk7shl3s4oenomq
-  '@remix-run/react': 1.4.3_zpnidt7m3osuk7shl3s4oenomq
-  '@remix-run/serve': 1.4.3_zpnidt7m3osuk7shl3s4oenomq
-  react: 18.0.0
-  react-dom: 18.0.0_react@18.0.0
+  '@remix-run/node': 1.4.3_ef5jwxihqo6n7gxfmzogljlgcm
+  '@remix-run/react': 1.4.3_ef5jwxihqo6n7gxfmzogljlgcm
+  '@remix-run/serve': 1.4.3_ef5jwxihqo6n7gxfmzogljlgcm
+  react: 18.1.0
+  react-dom: 18.1.0_react@18.1.0
 
 devDependencies:
-  '@remix-run/dev': 1.4.3_zpnidt7m3osuk7shl3s4oenomq
-  '@remix-run/eslint-config': 1.4.3_qnitevl4qmllwi2zqekf75mwoi
+  '@remix-run/dev': 1.4.3_ef5jwxihqo6n7gxfmzogljlgcm
+  '@remix-run/eslint-config': 1.4.3_t4cqyaxwbtpsab7uej7nin732q
   '@types/react': 18.0.9
   '@types/react-dom': 18.0.3
   autoprefixer: 10.4.7_postcss@8.4.13
@@ -733,7 +733,7 @@ packages:
       json-parse-even-better-errors: 2.3.1
     dev: true
 
-  /@remix-run/dev/1.4.3_zpnidt7m3osuk7shl3s4oenomq:
+  /@remix-run/dev/1.4.3_ef5jwxihqo6n7gxfmzogljlgcm:
     resolution: {integrity: sha512-uvN0UzN97KlGIyotQKB631N92eRAffsMmzC6meoqrejZ9aYQrIM0l/hX3nMjjmbCTKI1Dq29szpMIn6fs5T78g==}
     hasBin: true
     dependencies:
@@ -742,7 +742,7 @@ packages:
       '@babel/preset-typescript': 7.16.7_@babel+core@7.17.8
       '@esbuild-plugins/node-modules-polyfill': 0.1.4_esbuild@0.14.22
       '@npmcli/package-json': 2.0.0
-      '@remix-run/server-runtime': 1.4.3_zpnidt7m3osuk7shl3s4oenomq
+      '@remix-run/server-runtime': 1.4.3_ef5jwxihqo6n7gxfmzogljlgcm
       cacache: 15.3.0
       chalk: 4.1.2
       chokidar: 3.5.3
@@ -788,7 +788,7 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@remix-run/eslint-config/1.4.3_qnitevl4qmllwi2zqekf75mwoi:
+  /@remix-run/eslint-config/1.4.3_t4cqyaxwbtpsab7uej7nin732q:
     resolution: {integrity: sha512-eDWw9e0vId9ogC1lI75514wJeIFqE4bcSOl1u3JwC6H8rEXBuuPuAQQzjBdL61naEmAvS1yKfbUzmbP6ghEPog==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
@@ -817,8 +817,8 @@ packages:
       eslint-plugin-react: 7.29.4_eslint@8.15.0
       eslint-plugin-react-hooks: 4.5.0_eslint@8.15.0
       eslint-plugin-testing-library: 5.4.0_hcfsmds2fshutdssjqluwm76uu
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
+      react: 18.1.0
+      react-dom: 18.1.0_react@18.1.0
       typescript: 4.6.4
     transitivePeerDependencies:
       - eslint-import-resolver-webpack
@@ -826,12 +826,12 @@ packages:
       - supports-color
     dev: true
 
-  /@remix-run/express/1.4.3_27ezv4rbrz7yjx52auvjt6itoq:
+  /@remix-run/express/1.4.3_uylvv7bgf3i235clkffsyjrkfm:
     resolution: {integrity: sha512-GK/+eZd4TylqK4ZpGMhcO9cOJbbAgg3oWD8XqSGuYrjDI3uuwXTeOoq8kr/+o0USJhAhs7uLCQbEGgaayl01lg==}
     peerDependencies:
       express: ^4.17.1
     dependencies:
-      '@remix-run/node': 1.4.3_zpnidt7m3osuk7shl3s4oenomq
+      '@remix-run/node': 1.4.3_ef5jwxihqo6n7gxfmzogljlgcm
       express: 4.18.1
     transitivePeerDependencies:
       - encoding
@@ -839,10 +839,10 @@ packages:
       - react-dom
     dev: false
 
-  /@remix-run/node/1.4.3_zpnidt7m3osuk7shl3s4oenomq:
+  /@remix-run/node/1.4.3_ef5jwxihqo6n7gxfmzogljlgcm:
     resolution: {integrity: sha512-2x3BQ2qrA1v4Viu+GYMNMxxflnT5QcyOsPNCNvLjLm4o1pODHxYmp+2TEcZRgDqSTXgA7PNYlsEgG0BN/T33QA==}
     dependencies:
-      '@remix-run/server-runtime': 1.4.3_zpnidt7m3osuk7shl3s4oenomq
+      '@remix-run/server-runtime': 1.4.3_ef5jwxihqo6n7gxfmzogljlgcm
       '@types/busboy': 0.3.2
       '@types/node-fetch': 2.6.1
       '@web-std/file': 3.0.2
@@ -859,23 +859,23 @@ packages:
       - react-dom
     dev: false
 
-  /@remix-run/react/1.4.3_zpnidt7m3osuk7shl3s4oenomq:
+  /@remix-run/react/1.4.3_ef5jwxihqo6n7gxfmzogljlgcm:
     resolution: {integrity: sha512-E2lyoPiy2r4Ymuh2Jsf5MuaeZgzYQ/J6sBbGG4Sy23p5B6edvJUNR4wCjVP96cA9Kwon0PjxkGwgY4ye1zwJvQ==}
     peerDependencies:
       react: '>=16.8'
       react-dom: '>=16.8'
     dependencies:
       history: 5.3.0
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
-      react-router-dom: 6.3.0_zpnidt7m3osuk7shl3s4oenomq
+      react: 18.1.0
+      react-dom: 18.1.0_react@18.1.0
+      react-router-dom: 6.3.0_ef5jwxihqo6n7gxfmzogljlgcm
     dev: false
 
-  /@remix-run/serve/1.4.3_zpnidt7m3osuk7shl3s4oenomq:
+  /@remix-run/serve/1.4.3_ef5jwxihqo6n7gxfmzogljlgcm:
     resolution: {integrity: sha512-/Vtj3+4icXZQFBu/k1ru4xR3PgXPju3V71YAKjUZn5WshH44si4n8rwhFYN7gmmF7Dbx6YNwk1+QIKfpaJUyZw==}
     hasBin: true
     dependencies:
-      '@remix-run/express': 1.4.3_27ezv4rbrz7yjx52auvjt6itoq
+      '@remix-run/express': 1.4.3_uylvv7bgf3i235clkffsyjrkfm
       compression: 1.7.4
       express: 4.18.1
       morgan: 1.10.0
@@ -886,7 +886,7 @@ packages:
       - supports-color
     dev: false
 
-  /@remix-run/server-runtime/1.4.3_zpnidt7m3osuk7shl3s4oenomq:
+  /@remix-run/server-runtime/1.4.3_ef5jwxihqo6n7gxfmzogljlgcm:
     resolution: {integrity: sha512-NgzoEAlIuZWv53oZRgxGz+jqkEtAa+veAuxlp5/UcZ/VhygpYIcfKwdx4eCOqJOi1TqILNWrh3cedEVvV0jccQ==}
     peerDependencies:
       react: '>=16.8'
@@ -895,9 +895,9 @@ packages:
       '@types/cookie': 0.4.1
       cookie: 0.4.2
       jsesc: 3.0.2
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
-      react-router-dom: 6.3.0_zpnidt7m3osuk7shl3s4oenomq
+      react: 18.1.0
+      react-dom: 18.1.0_react@18.1.0
+      react-router-dom: 6.3.0_ef5jwxihqo6n7gxfmzogljlgcm
       set-cookie-parser: 2.4.8
       source-map: 0.7.3
 
@@ -5863,14 +5863,14 @@ packages:
       unpipe: 1.0.0
     dev: false
 
-  /react-dom/18.0.0_react@18.0.0:
-    resolution: {integrity: sha512-XqX7uzmFo0pUceWFCt7Gff6IyIMzFUn7QMZrbrQfGxtaxXZIcGQzoNpRLE3fQLnS4XzLLPMZX2T9TRcSrasicw==}
+  /react-dom/18.1.0_react@18.1.0:
+    resolution: {integrity: sha512-fU1Txz7Budmvamp7bshe4Zi32d0ll7ect+ccxNu9FlObT605GOEB8BfO4tmRJ39R5Zj831VCpvQ05QPBW5yb+w==}
     peerDependencies:
-      react: ^18.0.0
+      react: ^18.1.0
     dependencies:
       loose-envify: 1.4.0
-      react: 18.0.0
-      scheduler: 0.21.0
+      react: 18.1.0
+      scheduler: 0.22.0
     dev: false
 
   /react-is/16.13.1:
@@ -5881,27 +5881,27 @@ packages:
     resolution: {integrity: sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==}
     dev: true
 
-  /react-router-dom/6.3.0_zpnidt7m3osuk7shl3s4oenomq:
+  /react-router-dom/6.3.0_ef5jwxihqo6n7gxfmzogljlgcm:
     resolution: {integrity: sha512-uaJj7LKytRxZNQV8+RbzJWnJ8K2nPsOOEuX7aQstlMZKQT0164C+X2w6bnkqU3sjtLvpd5ojrezAyfZ1+0sStw==}
     peerDependencies:
       react: '>=16.8'
       react-dom: '>=16.8'
     dependencies:
       history: 5.3.0
-      react: 18.0.0
-      react-dom: 18.0.0_react@18.0.0
-      react-router: 6.3.0_react@18.0.0
+      react: 18.1.0
+      react-dom: 18.1.0_react@18.1.0
+      react-router: 6.3.0_react@18.1.0
 
-  /react-router/6.3.0_react@18.0.0:
+  /react-router/6.3.0_react@18.1.0:
     resolution: {integrity: sha512-7Wh1DzVQ+tlFjkeo+ujvjSqSJmkt1+8JO+T5xklPlgrh70y7ogx75ODRW0ThWhY7S+6yEDks8TYrtQe/aoboBQ==}
     peerDependencies:
       react: '>=16.8'
     dependencies:
       history: 5.3.0
-      react: 18.0.0
+      react: 18.1.0
 
-  /react/18.0.0:
-    resolution: {integrity: sha512-x+VL6wbT4JRVPm7EGxXhZ8w8LTROaxPXOqhlGyVSrv0sB1jkyFGgXxJ8LVoPRLvPR6/CIZGFmfzqUa2NYeMr2A==}
+  /react/18.1.0:
+    resolution: {integrity: sha512-4oL8ivCz5ZEPyclFQXaNksK3adutVS8l2xzZU0cqEFrE9Sb7fC0EFK5uEk74wIreL1DERyjvsU915j1pcT2uEQ==}
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
@@ -6199,8 +6199,8 @@ packages:
   /safer-buffer/2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
 
-  /scheduler/0.21.0:
-    resolution: {integrity: sha512-1r87x5fz9MXqswA2ERLo0EbOAU74DpIUO090gIasYTqlVoJeMcl+Z1Rg7WHz+qtPujhS/hGIt9kxZOYBV3faRQ==}
+  /scheduler/0.22.0:
+    resolution: {integrity: sha512-6QAm1BgQI88NPYymgGQLCZgvep4FyePDWFpXVK+zNSUgHwlqpJy8VEh8Et0KxTACS4VWwMousBElAZOH9nkkoQ==}
     dependencies:
       loose-envify: 1.4.0
     dev: false
