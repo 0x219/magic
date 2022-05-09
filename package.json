@@ -49,7 +49,7 @@
   "pnpm": {
     "peerDependencyRules": {
       "ignoreMissing": [
-        "babel/preset-env"
+        "@babel/preset-env"
       ]
     }
   }
