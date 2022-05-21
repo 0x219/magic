@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@remix-run/dev': 1.4.3
   '@remix-run/eslint-config': 1.4.3
-  '@remix-run/node': 1.4.3
+  '@remix-run/node': 1.5.1
   '@remix-run/react': 1.4.3
   '@remix-run/serve': 1.5.1
   '@types/react': 18.0.9
@@ -27,7 +27,7 @@ specifiers:
   typescript: 4.6.4
 
 dependencies:
-  '@remix-run/node': 1.4.3_ef5jwxihqo6n7gxfmzogljlgcm
+  '@remix-run/node': 1.5.1_ef5jwxihqo6n7gxfmzogljlgcm
   '@remix-run/react': 1.4.3_ef5jwxihqo6n7gxfmzogljlgcm
   '@remix-run/serve': 1.5.1_ef5jwxihqo6n7gxfmzogljlgcm
   react: 18.1.0
