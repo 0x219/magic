@@ -4,7 +4,7 @@ specifiers:
   '@remix-run/dev': 1.5.1
   '@remix-run/eslint-config': 1.4.3
   '@remix-run/node': 1.5.1
-  '@remix-run/react': 1.4.3
+  '@remix-run/react': 1.5.1
   '@remix-run/serve': 1.5.1
   '@types/react': 18.0.9
   '@types/react-dom': 18.0.4
@@ -28,7 +28,7 @@ specifiers:
 
 dependencies:
   '@remix-run/node': 1.5.1_ef5jwxihqo6n7gxfmzogljlgcm
-  '@remix-run/react': 1.4.3_ef5jwxihqo6n7gxfmzogljlgcm
+  '@remix-run/react': 1.5.1_ef5jwxihqo6n7gxfmzogljlgcm
   '@remix-run/serve': 1.5.1_ef5jwxihqo6n7gxfmzogljlgcm
   react: 18.1.0
   react-dom: 18.1.0_react@18.1.0
@@ -908,8 +908,8 @@ packages:
       - react-dom
     dev: false
 
-  /@remix-run/react/1.4.3_ef5jwxihqo6n7gxfmzogljlgcm:
-    resolution: {integrity: sha512-E2lyoPiy2r4Ymuh2Jsf5MuaeZgzYQ/J6sBbGG4Sy23p5B6edvJUNR4wCjVP96cA9Kwon0PjxkGwgY4ye1zwJvQ==}
+  /@remix-run/react/1.5.1_ef5jwxihqo6n7gxfmzogljlgcm:
+    resolution: {integrity: sha512-p4t6tC/WyPeLW7DO4g7ZSyH9EpWO37c4wD2np3rDwtv3WtsTZ70bU/+NOWE9nv74mH8i1C50eJ3/OR+8Ll8UbA==}
     peerDependencies:
       react: '>=16.8'
       react-dom: '>=16.8'
@@ -5859,7 +5859,6 @@ packages:
       loose-envify: 1.4.0
       react: 18.1.0
       scheduler: 0.22.0
-    dev: false
 
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
@@ -5893,7 +5892,6 @@ packages:
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
-    dev: false
 
   /read-cache/1.0.0:
     resolution: {integrity: sha1-5mTvMRYRZsl1HNvo28+GtftY93Q=}
@@ -6191,7 +6189,6 @@ packages:
     resolution: {integrity: sha512-6QAm1BgQI88NPYymgGQLCZgvep4FyePDWFpXVK+zNSUgHwlqpJy8VEh8Et0KxTACS4VWwMousBElAZOH9nkkoQ==}
     dependencies:
       loose-envify: 1.4.0
-    dev: false
 
   /semver/5.7.1:
     resolution: {integrity: sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==}
