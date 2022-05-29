@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@remix-run/dev': 1.5.1
-  '@remix-run/eslint-config': 1.4.3
+  '@remix-run/eslint-config': 1.5.1
   '@remix-run/node': 1.5.1
   '@remix-run/react': 1.4.3
   '@remix-run/serve': 1.5.1
@@ -35,7 +35,7 @@ dependencies:
 
 devDependencies:
   '@remix-run/dev': 1.5.1_ef5jwxihqo6n7gxfmzogljlgcm
-  '@remix-run/eslint-config': 1.4.3_numgchipnzqzmkjnasbpdyqeay
+  '@remix-run/eslint-config': 1.5.1_numgchipnzqzmkjnasbpdyqeay
   '@types/react': 18.0.9
   '@types/react-dom': 18.0.4
   autoprefixer: 10.4.7_postcss@8.4.14
@@ -841,8 +841,8 @@ packages:
       - utf-8-validate
     dev: true
 
-  /@remix-run/eslint-config/1.4.3_numgchipnzqzmkjnasbpdyqeay:
-    resolution: {integrity: sha512-eDWw9e0vId9ogC1lI75514wJeIFqE4bcSOl1u3JwC6H8rEXBuuPuAQQzjBdL61naEmAvS1yKfbUzmbP6ghEPog==}
+  /@remix-run/eslint-config/1.5.1_numgchipnzqzmkjnasbpdyqeay:
+    resolution: {integrity: sha512-JOCTH1QYAqqp/t7BBeurtlhXRSm06nFRjH0NOD/ZtpRzEWMYmuLat07hPJCeyrwwMzDJkx1mdeq5ktOUn50Klw==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^8.0.0
@@ -1093,7 +1093,7 @@ packages:
     dev: true
 
   /@types/json5/0.0.29:
-    resolution: {integrity: sha1-7ihweulOEdK4J7y+UnC86n8+ce4=}
+    resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
   /@types/keyv/3.1.4:
@@ -1508,7 +1508,7 @@ packages:
     dev: true
 
   /ast-types-flow/0.0.7:
-    resolution: {integrity: sha1-9wtzXGvKGlycItmCw+Oef+ujva0=}
+    resolution: {integrity: sha512-eBvWn1lvIApYMhzQMsu9ciLfkBY499mFZlNqG+/9WR7PVlroQw0vG30cOQQbaKz3sCEc44TAOu2ykzqXSNnwag==}
     dev: true
 
   /ast-types/0.14.2:
@@ -5859,7 +5859,6 @@ packages:
       loose-envify: 1.4.0
       react: 18.1.0
       scheduler: 0.22.0
-    dev: false
 
   /react-is/16.13.1:
     resolution: {integrity: sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==}
@@ -5893,7 +5892,6 @@ packages:
     engines: {node: '>=0.10.0'}
     dependencies:
       loose-envify: 1.4.0
-    dev: false
 
   /read-cache/1.0.0:
     resolution: {integrity: sha1-5mTvMRYRZsl1HNvo28+GtftY93Q=}
@@ -6191,7 +6189,6 @@ packages:
     resolution: {integrity: sha512-6QAm1BgQI88NPYymgGQLCZgvep4FyePDWFpXVK+zNSUgHwlqpJy8VEh8Et0KxTACS4VWwMousBElAZOH9nkkoQ==}
     dependencies:
       loose-envify: 1.4.0
-    dev: false
 
   /semver/5.7.1:
     resolution: {integrity: sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==}
