@@ -6,7 +6,7 @@ specifiers:
   '@remix-run/node': 1.5.1
   '@remix-run/react': 1.5.1
   '@remix-run/serve': 1.5.1
-  '@types/react': 18.0.9
+  '@types/react': 18.0.15
   '@types/react-dom': 18.0.5
   autoprefixer: 10.4.7
   concurrently: 7.2.1
@@ -36,7 +36,7 @@ dependencies:
 devDependencies:
   '@remix-run/dev': 1.5.1_ef5jwxihqo6n7gxfmzogljlgcm
   '@remix-run/eslint-config': 1.5.1_prdvedzkszhyllmfomk6yy4khy
-  '@types/react': 18.0.9
+  '@types/react': 18.0.15
   '@types/react-dom': 18.0.5
   autoprefixer: 10.4.7_postcss@8.4.14
   concurrently: 7.2.1
@@ -1139,11 +1139,11 @@ packages:
   /@types/react-dom/18.0.5:
     resolution: {integrity: sha512-OWPWTUrY/NIrjsAPkAk1wW9LZeIjSvkXRhclsFO8CZcZGCOg2G0YZy4ft+rOyYxy8B7ui5iZzi9OkDebZ7/QSA==}
     dependencies:
-      '@types/react': 18.0.9
+      '@types/react': 18.0.15
     dev: true
 
-  /@types/react/18.0.9:
-    resolution: {integrity: sha512-9bjbg1hJHUm4De19L1cHiW0Jvx3geel6Qczhjd0qY5VKVE2X5+x77YxAepuCwVh4vrgZJdgEJw48zrhRIeF4Nw==}
+  /@types/react/18.0.15:
+    resolution: {integrity: sha512-iz3BtLuIYH1uWdsv6wXYdhozhqj20oD4/Hk2DNXIn1kFsmp9x8d9QB6FnPhfkbhd2PgEONt9Q1x/ebkwjfFLow==}
     dependencies:
       '@types/prop-types': 15.7.5
       '@types/scheduler': 0.16.2
